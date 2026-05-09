@@ -1,0 +1,7 @@
+valor = float(input('Valor da compra: '))
+desconto = int(input('Percentual de Desconto: '))
+cal1= float(valor * (desconto/100))
+cal2= float(valor-(valor*(desconto/100)))
+print(valor)
+print(cal1)
+print(cal2)
